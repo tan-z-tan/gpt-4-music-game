@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.falling-area {
+  width: 100%;
+  height: 70vh;
+  border: 1px solid #ccc;
+}
+
+.keyboard-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  border: 1px solid #ccc;
+}
+
+.score-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5vh;
+}
+
+.tuning-switch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5vh;
+}
